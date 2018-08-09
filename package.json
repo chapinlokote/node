@@ -1,7 +1,7 @@
 {
-  "name": "node",
+  "name": "course-node-edutec",
   "version": "1.0.0",
-  "description": "test repository",
+  "description": "Edutec node",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -9,18 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chapinlokote/node.git"
+    "url": "git+https://github.com/ochilel/course-node-edutec.git"
   },
-  "author": "",
+  "author": "Oscar Chilel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chapinlokote/node/issues"
+    "url": "https://github.com/ochilel/course-node-edutec/issues"
   },
-  "homepage": "https://github.com/chapinlokote/node#readme",
+  "homepage": "https://github.com/ochilel/course-node-edutec#readme",
   "dependencies": {
     "body-parser": "1.18.3",
+    "connect-multiparty": "2.0.0",
     "express": "4.16.3",
-    "mongoose": "5.2.1",
-    "nodemon": "^1.17.5"
+    "mongoose": "5.1.2",
+    "nodemon": "1.17.5",
+    "bcrypt-nodejs": "0.0.3",
+    "jwt-simple": "0.5.1",
+    "moment": "2.18.1"
   }
 }
